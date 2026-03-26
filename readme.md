@@ -1,6 +1,6 @@
 ### Mark CLI
 
-CLI pessoal para automações via scripts Python.
+Projeto template para cli pessoal para automações via scripts Python.
 
 #### Setup
 
