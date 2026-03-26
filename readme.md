@@ -11,7 +11,7 @@ source ./install.sh
 Cria o venv, instala dependências e registra o comando `mark` no `.zshrc`.
 Em terminais novos, reative com: `source .venv/bin/activate`
 
-### Uso
+#### Uso
 
 ```bash
 mark <script> [args...]
