@@ -1,8 +1,8 @@
-## mark-cli
+### Mark CLI
 
 CLI pessoal para automações via scripts Python.
 
-### Setup
+#### Setup
 
 ```bash
 source ./install.sh
@@ -18,7 +18,7 @@ mark <script> [args...]
 mark help       # lista scripts disponíveis
 ```
 
-### Adicionando scripts
+#### Adicionando scripts
 
 Coloque o arquivo `.py` em `python/`. Para aparecer na listagem com descrição, adicione na primeira linha:
 
@@ -34,14 +34,14 @@ mark meu_script
 
 Módulos utilitários com prefixo `util_` **não aparecem** na listagem e não são executados diretamente.
 
-### Scripts incluídos
+#### Scripts incluídos
 
-| Script | Descrição |
-|---|---|
-| `decode_basic` | Decodifica token base64 |
-| `decode_jwt` | Decodifica token JWT (sem verificar assinatura) |
-| `encode_basic` | Codifica texto em base64 |
-| `get_screen` | Captura screenshot de uma URL |
+| Script         | Descrição                                       |
+| -------------- | ----------------------------------------------- |
+| `decode_basic` | Decodifica token base64                         |
+| `decode_jwt`   | Decodifica token JWT (sem verificar assinatura) |
+| `encode_basic` | Codifica texto em base64                        |
+| `get_screen`   | Captura screenshot de uma URL                   |
 
 ```bash
 mark decode_basic <base64_token>
